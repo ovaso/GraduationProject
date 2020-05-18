@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PBox3</string>
+    <string name="drawer_open">na</string>
+    <string name="drawer_close">na</string>
+    <string name="blank_tip">Blank data,click + to add an item</string>
+    <string name="coin_unit">$</string>
+</resources>

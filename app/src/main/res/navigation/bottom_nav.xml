@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bottom_nav"
+    app:startDestination="@id/bottom_item_assigns">
+
+    <fragment
+        android:id="@+id/bottom_item_assigns"
+        android:name="top.irises.pbox3.fragments.Assignment"
+        android:label="assignment_fragment"
+        tools:layout="@layout/assignment_fragment" >
+        <action
+            android:id="@+id/action_bottom_item_assigns_self"
+            app:destination="@id/bottom_item_assigns"
+            app:launchSingleTop="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/bottom_item_payments"
+        android:name="top.irises.pbox3.fragments.Payment"
+        android:label="payment_fragment"
+        tools:layout="@layout/payment_fragment" >
+        <action
+            android:id="@+id/action_bottom_item_payments_self"
+            app:destination="@id/bottom_item_payments"
+            app:launchSingleTop="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/bottom_item_contacts"
+        android:name="top.irises.pbox3.fragments.Contact"
+        android:label="contact_fragment"
+        tools:layout="@layout/contact_fragment" >
+        <action
+            android:id="@+id/action_bottom_item_contacts_self"
+            app:destination="@id/bottom_item_contacts"
+            app:launchSingleTop="true" />
+    </fragment>
+</navigation>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="任务"
+        android:icon="@drawable/ic_assignment_black_24dp"
+        android:id="@+id/bottom_item_assigns"
+        android:fragment="top.irises.pbox3.fragments.Assignment"
+        />
+    <item android:title="账单"
+        android:icon="@drawable/ic_payment_black_24dp"
+        android:id="@+id/bottom_item_payments"
+        android:fragment="top.irises.pbox3.fragments.Payment"
+        />
+    <item android:title="人脉"
+        android:icon="@drawable/ic_contacts_black_24dp"
+        android:id="@+id/bottom_item_contacts"
+        android:fragment="top.irises.pbox3.fragments.Contact"
+        />
+</menu>
